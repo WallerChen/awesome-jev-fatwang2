@@ -6,7 +6,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 ## Projects
 
-182 projects.
+184 projects.
 
 ### SDKs
 
@@ -123,6 +123,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 - [hev reranker](https://github.com/hev/reranker) — Python library using Jev Noul judgments to score candidate documents for query relevance, then sort or filter the results\.
 - [Jev Search](https://github.com/superagents-lab/jev-search) — Web search using Jev to choose sources, time ranges and query candidates, then rank Search1API results by relevance\.
 - [jev-research-pipeline](https://github.com/shimo4228/jev-research-pipeline) — Daily research monitor where Jev judges whether each new paper or repository helps answer one of the user's open questions and a separate LLM writes the note\.
+- [JevGPT](https://github.com/sunyasheng/JevGPT) — Research agent from the paper "JevGPT: Thinking Fast and Slow in Autonomous Research" \(arXiv 2610\.18272\): GPT-5\.5 plans searches; in BrowseComp-Plus QA, Jev answers parallel Choice \(which source lines hold the answer\) and Noul \(does the region address it\) questions per document region and query; includes reproduction code\.
 - [JevPDF](https://github.com/kylemclaren/jevpdf) — Browser app for searching a PDF in plain language: pdf\.js extracts each page's lines locally, each line gets one TypeSafe Jev Noul asking whether it answers the query \(batched up to 16 lines per request with the page text as context\), and lines at or above the hit threshold are highlighted and ranked by probability\.
 - [jevsearch](https://github.com/kylemclaren/jevsearch) — shadcn/ui command-palette site search where a local keyword pass streams hits first, then one TypeSafe Jev request re-ranks the top 20 with a Noul per candidate page, a Choice for the best answer, and a Noul for whether any page answers the query\.
 - [jgrep](https://github.com/keltokhy/jgrep) — Filters text, structured records, functions, and diff hunks against plain-English descriptions using Jev Noul judgments\.
@@ -131,6 +132,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 - [jsort](https://github.com/keltokhy/jsort) — Ranks text along a plain-English criterion using pairwise Jev Noul comparisons and a locally fitted Bradley-Terry scale\.
 - [MemSearch](https://github.com/zilliztech/memsearch) — Markdown memory retrieval for coding agents with an optional Jev reranker that scores retrieved chunks using Noul questions\.
 - [neo4jev](https://github.com/jexp/neo4jev) — Neo4j graph navigation demo that uses TypeSafe Jev to select relationships and check goals during beam search\.
+- [ReadyCode Reader](https://github.com/ReadycodeAI/readycode-reader) — Document retrieval tool that uses TypeSafe Jev to judge passage relevance, evidence sufficiency and conflicts, instruction-like content, and spreadsheet calculation plans for questions about PDF, Word and Excel files\.
 - [Search with Jev and Milvus](https://github.com/milvus-io/bootcamp) — Runnable search tutorials using Gemini embeddings, Milvus retrieval, and Jev judgments for reranking, filtering, stopping, routing, cache reuse, curation, guardrails, and evaluation\.
 - [Vector Graph RAG](https://github.com/zilliztech/vector-graph-rag) — Multi-hop retrieval with two-stage Jev Noul scoring of graph relations and full passages, reporting 86\.07% average Recall&\#64;5 across 1,000 MuSiQue and 1,000 2Wiki queries\.
 

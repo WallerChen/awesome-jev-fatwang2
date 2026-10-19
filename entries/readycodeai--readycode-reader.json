@@ -1,0 +1,9 @@
+{
+  "name": "ReadyCode Reader",
+  "repository": "ReadycodeAI/readycode-reader",
+  "description": "Document retrieval tool that uses TypeSafe Jev to judge passage relevance, evidence sufficiency and conflicts, instruction-like content, and spreadsheet calculation plans for questions about PDF, Word and Excel files.",
+  "category": "search",
+  "evidence": [
+    "src/core.cjs"
+  ]
+}
